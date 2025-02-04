@@ -1,0 +1,129 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #121212;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.max {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+}
+
+.content {
+    display: grid;
+    width: 80vw;
+    justify-content: center;
+}
+
+/* Tarjeta de usuario */
+.cardcontent {
+    width: 80vw;
+    background: #1a1a1a;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Encabezado */
+.card-header h5 {
+    text-align: center;
+}
+
+/* Información del usuario */
+.user-info .card-body p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* Publicaciones */
+.user-posts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Carrusel de publicaciones */
+.post-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    gap: 10px;
+}
+
+.post-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Comentarios */
+.comment-grid {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.comment-card {
+    background: #333;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Botones de navegación */
+.carousel-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.carousel-btn:hover {
+    color: #aaa;
+}
+
+
+.notfound{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.charging{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
